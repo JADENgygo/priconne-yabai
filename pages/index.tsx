@@ -40,16 +40,16 @@ const Home: NextPage = () => {
 
     setSide({
       peko: [
-        Math.random() * 1000 < 500 ? 1 : -1,
-        Math.random() * 1000 < 500 ? 1 : -1,
-        Math.random() * 1000 < 500 ? 1 : -1,
-        Math.random() * 1000 < 500 ? 1 : -1,
+        Math.random() < 0.5 ? 1 : -1,
+        Math.random() < 0.5 ? 1 : -1,
+        Math.random() < 0.5 ? 1 : -1,
+        Math.random() < 0.5 ? 1 : -1,
       ],
       kyaru: [
-        Math.random() * 1000 < 500 ? 1 : -1,
-        Math.random() * 1000 < 500 ? 1 : -1,
-        Math.random() * 1000 < 500 ? 1 : -1,
-        Math.random() * 1000 < 500 ? 1 : -1,
+        Math.random() < 0.5 ? 1 : -1,
+        Math.random() < 0.5 ? 1 : -1,
+        Math.random() < 0.5 ? 1 : -1,
+        Math.random() < 0.5 ? 1 : -1,
       ]
     });
   };
